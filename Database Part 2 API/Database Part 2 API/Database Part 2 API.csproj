@@ -123,9 +123,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\Accountpayment7588Controller.cs" />
+    <Compile Include="Controllers\Authorisedperson7588Controller.cs" />
+    <Compile Include="Controllers\Clientaccount7588Controller.cs" />
+    <Compile Include="Controllers\Location7588Controller.cs" />
+    <Compile Include="Controllers\Order7588Controller.cs" />
+    <Compile Include="Controllers\Orderline102117588Controller.cs" />
+    <Compile Include="Controllers\Product7588Controller.cs" />
+    <Compile Include="Controllers\Purchaseorder7588Controller.cs" />
+    <Compile Include="Controllers\WeatherForcastController.cs" />
     <Compile Include="DB.cs" />
+    <Compile Include="Models\Accountpayment7588.cs" />
+    <Compile Include="Models\Clientaccount7588.cs" />
+    <Compile Include="Models\ClientAccountAndAuthorisedAccount.cs" />
+    <Compile Include="Models\Clientauthorisedaccounts7588.cs" />
+    <Compile Include="Models\Generalledger7588.cs" />
+    <Compile Include="Models\Inventory7588.cs" />
+    <Compile Include="Models\Location7588.cs" />
+    <Compile Include="Models\Order7588.cs" />
+    <Compile Include="Models\OrderLine7588.cs" />
+    <Compile Include="Models\Product7588.cs" />
+    <Compile Include="Models\_102117588Context.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties.cs" />
     <Compile Include="Startup.cs" />
@@ -134,10 +152,9 @@
   <ItemGroup>
     <Content Include="appsettings.json" />
     <Content Include="appsettings.Development.json" />
+    <Compile Include="Models\Authorisedperson7588.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Properties\launchSettings.json" />
   </ItemGroup>
